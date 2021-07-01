@@ -1,0 +1,45 @@
+.zsák {
+    font-size: 50px;
+    color: gray;
+    font-family: 'Lucida Sans', sans-serif;
+    opacity: 100%;
+    text-align: center;
+}
+.képtest {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px;
+}
+.képtest:hover {
+    border-radius: 0px;  
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    width: 50%;
+    animation-name: offMiniIMG;
+    animation-duration: 1s;
+
+}
+.test1 {
+    position: relative;
+}
+.test1_1 {
+    position: absolute;
+    bottom: 20px;
+    right: 570px;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.test1_1:hover {
+    font-size: 40px;
+}
+.ongoingcard {
+    max-width: 570px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
